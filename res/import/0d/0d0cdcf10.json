@@ -1,0 +1,290 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "im-message",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "im-message",
+      "_children": [
+        {
+          "__id__": 2
+        },
+        {
+          "__id__": 4
+        }
+      ],
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "_name": "im-message<Sprite>",
+          "node": {
+            "__id__": 1
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "aaQpdB/0ZIY6z2oi4J5mDv"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "047U37PahNmI/BHAnWDqlC"
+        },
+        "fileId": "c2cevg5StElp0W0Qxe0LbF"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 320,
+        "height": 518
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "im-title-backgroup",
+      "_parent": {
+        "__id__": 1
+      },
+      "_children": [
+        {
+          "__id__": 3
+        }
+      ],
+      "_level": 4,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "_name": "im-title-backgroup<Sprite>",
+          "node": {
+            "__id__": 2
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "aaQpdB/0ZIY6z2oi4J5mDv"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Layout",
+          "node": {
+            "__id__": 2
+          },
+          "_layoutSize": {
+            "__type__": "cc.Size",
+            "width": 320,
+            "height": 50
+          },
+          "_N$paddingLeft": 15
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 2
+          },
+          "_alignFlags": 41,
+          "_originalWidth": 320
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "047U37PahNmI/BHAnWDqlC"
+        },
+        "fileId": "f2vreNIgdGXZwqbVGcam6E"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 54,
+        "g": 55,
+        "b": 60
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 320,
+        "height": 50
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 160,
+        "y": 493
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "im-title",
+      "_parent": {
+        "__id__": 2
+      },
+      "_level": 3,
+      "_components": [
+        {
+          "__type__": "cc.Label",
+          "_name": "im-title<Label>",
+          "node": {
+            "__id__": 3
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_useOriginalSize": false,
+          "_string": "我的消息",
+          "_N$string": "我的消息",
+          "_fontSize": 18,
+          "_lineHeight": 18,
+          "_N$horizontalAlign": 1,
+          "_N$verticalAlign": 1
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 3
+          },
+          "_alignFlags": 18
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "047U37PahNmI/BHAnWDqlC"
+        },
+        "fileId": "e4fOVfDmJKaZvaN/VMNH8k"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 72,
+        "height": 22.68
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "im-content",
+      "_parent": {
+        "__id__": 1
+      },
+      "_level": 4,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "_name": "im-content<Sprite>",
+          "node": {
+            "__id__": 4
+          },
+          "_materials": [
+            {
+              "__uuid__": "ecpdLyjvZBwrvm+cedCcQy"
+            }
+          ],
+          "_spriteFrame": {
+            "__uuid__": "aaQpdB/0ZIY6z2oi4J5mDv"
+          },
+          "_type": 1,
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "cc.Layout",
+          "node": {
+            "__id__": 4
+          },
+          "_layoutSize": {
+            "__type__": "cc.Size",
+            "width": 320,
+            "height": 468
+          },
+          "_N$layoutType": 2
+        },
+        {
+          "__type__": "cc.Widget",
+          "node": {
+            "__id__": 4
+          },
+          "_alignFlags": 45,
+          "_top": 50,
+          "_originalWidth": 320,
+          "_originalHeight": 468
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "047U37PahNmI/BHAnWDqlC"
+        },
+        "fileId": "90IzB7w8lOQq84bQ8sbPRf"
+      },
+      "_color": {
+        "__type__": "cc.Color",
+        "r": 238,
+        "g": 238,
+        "b": 238
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 320,
+        "height": 468
+      },
+      "_anchorPoint": {
+        "__type__": "cc.Vec2"
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "default_panel",
+      "texture": "5dubDjHApLFJHk3/x3VWLD",
+      "rect": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        20,
+        20
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

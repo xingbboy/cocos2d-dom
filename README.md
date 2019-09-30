@@ -19,7 +19,7 @@
         编译完成会在bin目录里出现cocos引擎文件，替换到项目目录里即可
 
 4.本工程修改了cocos引擎部分源码支持vscode调试
-    由于cocosy引擎源码不支持vscode调试，所以当前工程是改了部分cocos引擎源码(import export部分)以支持vscode调试
+    由于cocosy引擎源码不支持vscode调试，所以当前工程是改了部分cocos引擎源码(import,export部分,去掉了3D,物理,粒子)以支持vscode调试
     需要用到chrome和electron
     在工程目录安装electron模块(npm install electron)
     选择"Electron: All"进行调试，第一次启动不会断点，需要在调试工具选择"Electron: Renderer"然后点击重启调试。
