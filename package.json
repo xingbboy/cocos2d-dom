@@ -61,7 +61,7 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "electron": "^6.0.10",
+    "electron": "^18.3.7",
     "fs-extra": "^8.1.0"
   }
 }
